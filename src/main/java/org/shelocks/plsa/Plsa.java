@@ -102,6 +102,14 @@ public class Plsa {
      * EM algorithm
      * 
      */
+    
+    /*
+     *
+     * The following EM Algorithm must be implemented using Multithreading. When the number of files is very large
+     * the algorithm is very slow. On the other hand multithreading increases the speed of the algorithm as per the
+     * number of cores in the CPU.
+     *
+     */
     private void em() {
         /*
          * E-step,calculate posterior probability p(z|d,w,&),& is
