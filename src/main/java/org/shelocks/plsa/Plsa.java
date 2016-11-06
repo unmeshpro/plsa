@@ -197,8 +197,10 @@ public class Plsa {
     }
 
     /**
+    *
     * Count the number of words in the set of documents
-    * Return only the set of unique words as a List
+    * Return the set of unique words as a List
+    *
     */
     private List<String> statisticsVocabularies(List<Document> docs) {
         Set<String> uniqWords = new HashSet<String>();
